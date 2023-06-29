@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "AifetchMain",
+    "slug": "AifetchMain",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/AIFETCH.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ASBremovebg.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yash2005.AifetchMain"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7e17e7da-0d57-43a9-a9c2-d541d7237ea2"
+      }
+    }
+  }
+}
